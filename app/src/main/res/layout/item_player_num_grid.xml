@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.sponia.idyll.testapp.view.RatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.idyll.testapp.view.RatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="60dp"
     android:layout_height="60dp">
 
 
-    <com.sponia.idyll.testapp.view.FontTextView
+    <com.idyll.testapp.view.FontTextView
         android:id="@+id/number_tv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_margin="15dp"
         android:gravity="center"
-        android:text="10"
         android:textColor="@color/R"
         android:textSize="25sp"
         app:fontStyle="lexia_bold" />
 
 
-</com.sponia.idyll.testapp.view.RatioFrameLayout>
+</com.idyll.testapp.view.RatioFrameLayout>
