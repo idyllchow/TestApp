@@ -29,8 +29,10 @@ public class MainActivityBinding extends Activity implements View.OnClickListene
         setContentView(R.layout.activity_main);
         tv1 = (TextView) findViewById(R.id.tv1);
         tv2 = (TextView) findViewById(R.id.tv2);
+        tv3 = (TextView) findViewById(R.id.tv3);
         tv1.setOnClickListener(this);
         tv2.setOnClickListener(this);
+        tv3.setOnClickListener(this);
         }
 
 
@@ -43,6 +45,9 @@ public class MainActivityBinding extends Activity implements View.OnClickListene
                 break;
             case R.id.tv2:
                 startActivity(new Intent(this, PlayerPositionActivity.class));
+                break;
+            case R.id.tv3:
+                startActivity(new Intent(this, DragGridViewActivity.class));
                 break;
             default:
                 break;
